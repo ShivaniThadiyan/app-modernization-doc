@@ -38,11 +38,17 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
+# Known Issues
+
+In Exercise 6 - Task 2 - Step - 12, Search setvice might take 10-15 minutes, After that you should see a document count matching the number of PDFs next to the policies index you created, on the Search service home screen.
+
 # Notes to Instructors / Proctors
 
-* Users should use the Azure Credentials given to them to login to Visual Studio.
+* Exercise 1 - Task 3 - Step 2: Connect to your local SQL Express instance, Use Default Username: sa  and Password: P@ssword
 
-* Exercise 1 - Task 3 - Step 2 : Connect to your local SQL Express instance, Use Default Username: sa  and Password: P@ssword
+* Exercise 3 - Task 3 - Step 6: Users should create new guid.User can generate a new Guid by opening PowerShell and running the following command: [guid]::NewGuid() 
+
+* Users should use the Azure Credentials given to them to login to Visual Studio.
 
 # Help and Support
 
