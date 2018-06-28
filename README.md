@@ -51,7 +51,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 * In Exercise 8 - Task 1 - Step 4 - Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
 
-* Exercise 9 - Task 3 - Users can deploy the web and verifying it. It will only publish the web app. Users have to skip steps 6-8.
+* Exercise 9 - Task 3 - Users can deploy the web app and verifying it. It will only publish the web app. Users have to skip steps 6-8.
 
 # Notes to Instructors / Proctors
 
