@@ -20,12 +20,19 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 3. Note that you have access to two resource groups – ODL_App-xxxxx-01 and ODL_App-xxxxx-02. Note: ODL_ARM-xxxxx-01 has the pre-deployed environment **ODL_App-xxxxx-02** is a Resource group.you will use **ODL_App-xxxxx-02** to deploy new resources. 
 
-4. Navigate to the resource group **ODL_App-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+4. Navigate to the resource group **ODL_App-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc.
 
-5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received.
+* **LABVM** has been configured with the following:
+  1. IE Enhanced Security has been disabled
+  2. SQL Server Express 2017
+  3. SQL Server Management Studio 2017
+  4. Files are downloaded into **C:\Hackathon**
 
-6. Now go to -> **C:\Hackathon**, you will see that files are already downloaded.
-
+5. Users can select **LABVM** and click on **Connect** to download the RDP file
+* Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
+* Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
+6. Now go to C:\Hackathon and verify the student files are there.
+ 
 ## Verify Azure Access
 
 Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
@@ -40,7 +47,11 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
-In Exercise 6 - Task 2 - Step - 12, Search service might take 10-15 minutes, After that you should see a document count matching the number of PDFs next to the policies index you created, on the Search service home screen.
+* In Exercise 5 - Task 1 - Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
+
+* In Exercise 8 - Task 1 - Step 4 - Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
+
+* Exercise 9 - Task 3 - Users can deploy the web and verifying it. It will only publish the web app. Users have to skip steps 6-8.
 
 # Notes to Instructors / Proctors
 
@@ -48,7 +59,11 @@ In Exercise 6 - Task 2 - Step - 12, Search service might take 10-15 minutes, Aft
 
 * Exercise 3 - Task 3 - Step 6: Users should create new guid.User can generate a new Guid by opening PowerShell and running the following command: **[guid]::NewGuid()** 
 
+* Exercise 4 - Task 3 - Step 6: FILE-SOURCE: This is the path to the Files folder in your sample project directory, such as C:\Hackathon\Files
+
 * Users should use the Azure Credentials given to them to login to Visual Studio.
+
+* Users should always open the visual studio **Run as administrator**.
 
 # Help and Support
 
